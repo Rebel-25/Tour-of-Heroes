@@ -10,7 +10,7 @@ h2, h3 {
   font-weight: lighter;
 }
 body {
-  margin: 2em;
+  margin: 2em !important;
 }
 body, input[type="text"], button {
   color: #333;
@@ -19,4 +19,8 @@ body, input[type="text"], button {
 
 * {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  cursor: pointer;
 }
